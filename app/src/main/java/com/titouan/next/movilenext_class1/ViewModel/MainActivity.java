@@ -1,4 +1,4 @@
-package com.titouan.next.movilenext_class1;
+package com.titouan.next.movilenext_class1.ViewModel;
 
 import android.arch.lifecycle.ViewModelProviders;
 import android.os.SystemClock;
@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Chronometer;
+
+import com.titouan.next.movilenext_class1.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

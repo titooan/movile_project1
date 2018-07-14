@@ -1,4 +1,4 @@
-package com.titouan.next.movilenext_class1;
+package com.titouan.next.movilenext_class1.ViewModel;
 
 import android.arch.lifecycle.ViewModel;
 

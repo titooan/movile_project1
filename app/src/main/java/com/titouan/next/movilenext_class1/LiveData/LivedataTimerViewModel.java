@@ -1,4 +1,4 @@
-package com.titouan.next.movilenext_class1;
+package com.titouan.next.movilenext_class1.LiveData;
 
 import android.arch.lifecycle.MutableLiveData;
 import android.arch.lifecycle.ViewModel;

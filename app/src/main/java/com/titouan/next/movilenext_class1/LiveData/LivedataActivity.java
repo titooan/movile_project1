@@ -1,11 +1,12 @@
-package com.titouan.next.movilenext_class1;
+package com.titouan.next.movilenext_class1.LiveData;
 
 import android.arch.lifecycle.Observer;
 import android.arch.lifecycle.ViewModelProviders;
-import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
+
+import com.titouan.next.movilenext_class1.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
