@@ -23,6 +23,7 @@ import butterknife.ButterKnife;
  */
 public class SeekBarFragment extends Fragment {
 
+    @BindView(R.id.seekbar)
     protected SeekBar seekBar;
 
     private SeekbarViewModel viewModel;
@@ -38,7 +39,7 @@ public class SeekBarFragment extends Fragment {
         // Inflate the layout for this fragment
 
         View root = inflater.inflate(R.layout.fragment_seakbar, container, false);
-        seekBar = root.findViewById(R.id.seekbar);
+        ButterKnife.bind(this, root);
 
         viewModel = ViewModelProviders.of(getActivity()).get(SeekbarViewModel.class);
 
