@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MovileNext_Class1</string>
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="reset">Reset</string>
+    <string name="seconds">%d seconds</string>
+</resources>
